@@ -10,7 +10,7 @@
  *
  * @link              hhttps://github.com/origama/wordpress-exporter-prometheus/
  * @since             1.0.0
- * @package           Plugin_Name
+ * @package           Wordpress_Exporter_Prometheus
  *
  * @wordpress-plugin
  * Plugin Name:       WordPress Exporter Prometheus
