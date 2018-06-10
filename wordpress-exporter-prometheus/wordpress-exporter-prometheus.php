@@ -8,17 +8,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              hhttps://github.com/origama/wordpress-exporter-prometheus/
+ * @link              https://github.com/origama
  * @since             1.0.0
  * @package           Wordpress_Exporter_Prometheus
  *
  * @wordpress-plugin
- * Plugin Name:       WordPress Exporter Prometheus
- * Plugin URI:        https://github.com/origama/wordpress-exporter-prometheus/
- * Description:       This Wordpress plugin exports metrics for prometheus to scrape 'em 
+ * Plugin Name:       wordpress-exporter-prometheus
+ * Plugin URI:        https://github.com/origama/wordpress-exporter-prometheus
+ * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
- * Author:            Giuseppe Virz&igrave;
- * Author URI:        https://github.com/origama/
+ * Author:            Giuseppe Virzì
+ * Author URI:        https://github.com/origama
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       wordpress-exporter-prometheus
@@ -35,28 +35,28 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'WORDPRESS_EXPORTER_PROMETHEUS_VERSION', '1.0.0' );
+define( 'PLUGIN_NAME_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-wordpress-exporter-prometheus-activator.php
  */
-function activate_plugin_name() {
+function activate_wordpress_exporter_prometheus() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-exporter-prometheus-activator.php';
-	WORDPRESS_EXPORTER_PROMETHEUS_Activator::activate();
+	Wordpress_Exporter_Prometheus_Activator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
  * This action is documented in includes/class-wordpress-exporter-prometheus-deactivator.php
  */
-function deactivate_plugin_name() {
+function deactivate_wordpress_exporter_prometheus() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-exporter-prometheus-deactivator.php';
-	WORDPRESS_EXPORTER_PROMETHEUS_Deactivator::deactivate();
+	Wordpress_Exporter_Prometheus_Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_plugin_name' );
-register_deactivation_hook( __FILE__, 'deactivate_plugin_name' );
+register_activation_hook( __FILE__, 'activate_wordpress_exporter_prometheus' );
+register_deactivation_hook( __FILE__, 'deactivate_wordpress_exporter_prometheus' );
 
 /**
  * The core plugin class that is used to define internationalization,
@@ -73,10 +73,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-wordpress-exporter-prometh
  *
  * @since    1.0.0
  */
-function run_plugin_name() {
+function run_wordpress_exporter_prometheus() {
 
-	$plugin = new Plugin_Name();
+	$plugin = new Wordpress_Exporter_Prometheus();
 	$plugin->run();
 
 }
-run_plugin_name();
+run_wordpress_exporter_prometheus();

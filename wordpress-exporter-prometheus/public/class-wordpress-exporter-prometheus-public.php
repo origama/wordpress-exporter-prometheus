@@ -3,11 +3,11 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://example.com
+ * @link       https://github.com/origama
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/public
  */
 
 /**
@@ -16,11 +16,11 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the public-facing stylesheet and JavaScript.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/public
- * @author     Your Name <email@example.com>
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/public
+ * @author     Giuseppe Virzì <origama0@gmail.com>
  */
-class WORDPRESS_EXPORTER_PROMETHEUS_Public {
+class Wordpress_Exporter_Prometheus_Public {
 
 	/**
 	 * The ID of this plugin.
@@ -65,10 +65,10 @@ class WORDPRESS_EXPORTER_PROMETHEUS_Public {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in WORDPRESS_EXPORTER_PROMETHEUS_Loader as all of the hooks are defined
+		 * defined in Wordpress_Exporter_Prometheus_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The WORDPRESS_EXPORTER_PROMETHEUS_Loader will then create the relationship
+		 * The Wordpress_Exporter_Prometheus_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
@@ -88,10 +88,10 @@ class WORDPRESS_EXPORTER_PROMETHEUS_Public {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in WORDPRESS_EXPORTER_PROMETHEUS_Loader as all of the hooks are defined
+		 * defined in Wordpress_Exporter_Prometheus_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The WORDPRESS_EXPORTER_PROMETHEUS_Loader will then create the relationship
+		 * The Wordpress_Exporter_Prometheus_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */

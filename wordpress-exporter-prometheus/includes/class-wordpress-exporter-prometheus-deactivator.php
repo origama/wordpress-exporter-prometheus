@@ -3,11 +3,11 @@
 /**
  * Fired during plugin deactivation
  *
- * @link       http://example.com
+ * @link       https://github.com/origama
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      1.0.0
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/includes
+ * @author     Giuseppe Virzì <origama0@gmail.com>
  */
-class WORDPRESS_EXPORTER_PROMETHEUS_Deactivator {
+class Wordpress_Exporter_Prometheus_Deactivator {
 
 	/**
 	 * Short Description. (use period)

@@ -3,11 +3,11 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://example.com
+ * @link       https://github.com/origama
  * @since      1.0.0
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/includes
  */
 
 /**
@@ -17,11 +17,11 @@
  * the plugin, and register them with the WordPress API. Call the
  * run function to execute the list of actions and filters.
  *
- * @package    Plugin_Name
- * @subpackage Plugin_Name/includes
- * @author     Your Name <email@example.com>
+ * @package    Wordpress_Exporter_Prometheus
+ * @subpackage Wordpress_Exporter_Prometheus/includes
+ * @author     Giuseppe Virzì <origama0@gmail.com>
  */
-class WORDPRESS_EXPORTER_PROMETHEUS_Loader {
+class Wordpress_Exporter_Prometheus_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.

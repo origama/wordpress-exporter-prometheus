@@ -5,11 +5,11 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://example.com
+ * @link       https://github.com/origama
  * @since      1.0.0
  *
  * @package    Wordpress_Exporter_Prometheus
- * @subpackage Wordpress-Exporter_Prometheus/admin/partials
+ * @subpackage Wordpress_Exporter_Prometheus/admin/partials
  */
 ?>
 
